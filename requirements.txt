@@ -1,8 +1,9 @@
-click
-bert_score
-nltk
-sacrebleu
-alignscore
-joblib
-ollama
-openai
+click==8.1.7
+bert_score==0.3.13
+nltk==3.9.1
+sacrebleu==2.4.3
+# remember tha alignscore is not available in pip, install from source https://github.com/yuh-zha/AlignScore
+alignscore==0.1.3
+joblib==1.4.2
+ollama==0.3.3
+openai==1.53.0
