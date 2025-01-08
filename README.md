@@ -12,3 +12,21 @@ Supported LLMs are:
 
 Run `python metrics_evaluator.py --preds_path=<PATH TO FILE WITH GRAPH DESCRIPTIONS FROM LLM> --dataset_folder=<PATH TO FOLDER WITH WEBNLG DATASET> --dataset_filename=<FILENAME OF WEBNLG DATASET> --output_path=<WHERE TO STORE DETAILED METRICS>`
 to evaluate WEBNLG metrics and `alignscore_evaluator.py` for the AlignScore.
+
+## Future Work, Citation & Contacts
+
+If you find some issues, do not hesitate to add it to [Github Issues](https://github.com/s-nlp/llm-g2t/issues).
+
+For any questions please contact: [Dmitrii Iarosh](mailto:D.Yarosh@skol.tech), [Mikhail Salnikov](mailto:Mikhail.Salnikov@skol.tech) or [Alexander Panchenko](mailto:A.Panchenko@skol.tech)
+
+```bibtex
+@inproceedings{iarosh-etal-2025-g2t-hallucinations,
+    title = "On Reducing Factual Hallucinations in Graph-to-Text Generation using Large Language Models",
+    author = "Iarosh, Dmitrii and
+      Salnikov, Mikhail and
+      Panchenko, Alexander",
+    booktitle = "Proceedings of the COLING 2025 GenAIK 2025 Workshop",
+    month = feb,
+    year = "2025",
+}
+```
